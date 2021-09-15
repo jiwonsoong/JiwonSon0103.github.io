@@ -1,5 +1,5 @@
 * { 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 html{
     height: 100%;
@@ -15,9 +15,13 @@ body {
 body>header{
     padding: 0 25%;
 }
+body>header h2{
+    margin: 0;
+}
 main{
     flex: 1;
 }
+
 .profile {
     /* width: 50%;
     margin: 0 auto; */
@@ -28,24 +32,36 @@ main{
     /* justify-content: center; */
     align-items: center;
 }
-.profile-wrap{
-    display:flex;
+.profile hr{
+    width: 70%
 }
-.profile-image{
-    width: 181.44px;
-    height: 241.92px;
-    float: left;
+
+.profile-wrap{
+    width: 60%
 }
 .profile-contents{
+    display: flex;
+    margin: 5% 0;
+}
+.profile-image{
+    flex: 1;
+    float: left;
+    margin: auto;
+}
+.profile-image img{
+    width: 100%;
+}
+.profile-text{
+    flex: 3;
     /* padding: 0 0 0 5%; */
     padding-left: 5%;
 }
-.profile-contents p{
+.profile-text p{
     font-size: 0.8em;
 }
 
 footer{
-    height: 50px;
+    height: 40px;
     background-color: rgba(113, 105, 91, 0.347);
     display:flex;
     /* justify-content: center; */
@@ -53,10 +69,13 @@ footer{
     /* padding: 0 20%; */
 }
 footer>div{
-    width: 500px;
-}
-.f-left{
+    width: 30%;
+    font-size: 0.5em;
     
 }
+.f-left{
+    /* font-size: 0.5em; */
+}
 .f-right{
+    /* font-size: 0.5em; */
 }
